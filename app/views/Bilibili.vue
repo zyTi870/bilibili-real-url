@@ -30,9 +30,9 @@ const liveRoomInfo = ref<any | null>(null);
 watch(page, p => set_preview(`/${id.value}.mp4` + (p > 0 ? `?p=${p}` : '')));
 
 const preset: { name: string; url: string }[] = [
-  { name: '一般视频', url: 'https://www.bilibili.com/video/BV1Mx4y137fa' },
-  { name: '分P视频', url: 'https://www.bilibili.com/video/BV1ms411b7Ph' },
-  { name: '直播链接', url: 'https://live.bilibili.com/10' }
+  { name: '一般视频', url: 'https://www.bilibili.com/video/BV' },
+  { name: '分P视频', url: 'https://www.bilibili.com/video/BV' },
+  { name: '直播链接', url: 'https://live.bilibili.com/1728610341' }
 ];
 
 function parse() {
